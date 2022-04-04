@@ -1,9 +1,10 @@
+body{
+  font-family: sans-serif;
+}
 
+.welcomeHome{
+  height: 100%;
+  width: 100%;
+  
 
-
-.mainPage{
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
-  width: auto;
-  display: flex;
-  height: 900px;
 }

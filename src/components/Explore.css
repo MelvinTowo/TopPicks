@@ -1,0 +1,94 @@
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+
+body{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.Container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+  }
+
+.card{
+    background: white;
+    width: 280px;
+    
+    margin: 10px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1{
+    background-image: url(test-image1.jpg);
+}
+
+.card-2{
+    background-image: url(test-image2.jpg);
+}
+
+.card-3{
+    background-image: url(test-image3.jpg);
+}
+
+.card-4{
+    background-image: url(test-image4.jpg);
+}
+
+.card-5{
+    background-image: url(test-image5.jpg);
+}
+
+.card-6{
+    background-image: url(test-image6.jpg);
+}
+
+.card-7{
+    background-image: url(test-image7.jpg);
+}
+
+.card-8{
+    background-image: url(test-image8.jpg);
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
