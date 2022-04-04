@@ -7,6 +7,7 @@ import {
     MDBRow,
     MDBIcon
   } from 'mdb-react-ui-kit';
+import logo from './Screenshot.png';
 
 
 export default class footer extends Component {
@@ -19,8 +20,8 @@ export default class footer extends Component {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
-            <i className='fab fa-facebook-f'></i>
+          <a href='www.facebook.com' className='me-4 text-reset'>
+            <i className='fab fa-facebook'></i>
           </a>
           <a href='' className='me-4 text-reset'>
             <i className='fab fa-twitter'></i>
@@ -45,34 +46,34 @@ export default class footer extends Component {
           <div className='row mt-3'>
             <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <i className='fas fa-gem me-3'></i>Company name
+                <i className='fas fa-gem me-3'></i>TopPicks
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                Find more ways to share TopPick tags with your friends or on other Socials!
               </p>
+              <img src={logo} width="200" height="100"></img>
             </div>
 
             <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  TopPicks 
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  Report a problem
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  Frequently asked questions
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Location services
                 </a>
               </p>
             </div>
@@ -81,7 +82,7 @@ export default class footer extends Component {
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Promotion
                 </a>
               </p>
               <p>
@@ -91,12 +92,12 @@ export default class footer extends Component {
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Terms of use
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  Privacy policy
                 </a>
               </p>
             </div>
@@ -104,17 +105,17 @@ export default class footer extends Component {
             <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <i className='fas fa-home me-3'></i> New York, NY 10012, US
+                <i className='fas fa-home me-3'></i> Texas, TX 76203-5017, US
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
                 info@example.com
               </p>
               <p>
-                <i className='fas fa-phone me-3'></i> + 01 234 567 88
+                <i className='fas fa-phone me-3'></i> + 01 940 564 2000
               </p>
               <p>
-                <i className='fas fa-print me-3'></i> + 01 234 567 89
+                <i className='fas fa-print me-3'></i> + 01 940 369 8652
               </p>
             </div>
           </div>
@@ -124,7 +125,7 @@ export default class footer extends Component {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2021 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+          TopPicks.com
         </a>
       </div>
     </MDBFooter>

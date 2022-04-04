@@ -8,7 +8,7 @@ import Explore from './Explore';
 import Favourites from './Favourites';
 import Faq from './Faq';
 import ContactUS from './ContactUS';
-import './Navbar.css';
+
 import logo from './Screenshot.png';
 
 export default class NavBar extends Component {

@@ -1,4 +1,5 @@
 import React from 'react';
+import {MDBFooter} from 'mdb-react-ui-kit';
 import './App.css';
 import Footer from './components/footer';
 import Home from './components/Home';
