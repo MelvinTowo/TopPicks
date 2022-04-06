@@ -8,6 +8,11 @@ import {
     MDBIcon
   } from 'mdb-react-ui-kit';
 import logo from './Screenshot.png';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 export default class footer extends Component {
@@ -16,27 +21,25 @@ export default class footer extends Component {
       <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
+          <span>Share your interests with others on:</span>
         </div>
 
         <div>
-          <a href='www.facebook.com' className='me-4 text-reset'>
-            <i className='fab fa-facebook'></i>
+          <a href='https://www.facebook.com/' className='me-4 text-reset'>
+            <i className='fab fa-facebook'> < FacebookIcon  /> </i>
           </a>
-          <a href='' className='me-4 text-reset'>
-            <i className='fab fa-twitter'></i>
+          <a href='https://www.twitter.com/' className='me-4 text-reset'>
+            <i className='fab fa-twitter'> <TwitterIcon /> </i>
           </a>
-          <a href='' className='me-4 text-reset'>
-            <i className='fab fa-google'></i>
+  
+          <a href='https://www.instagram.com/' className='me-4 text-reset'>
+            <i className='fab fa-instagram'> <InstagramIcon />  </i>
           </a>
-          <a href='' className='me-4 text-reset'>
-            <i className='fab fa-instagram'></i>
+          <a href='https://www.linkedin.com' className='me-4 text-reset'>
+            <i className='fab fa-linkedin'> <LinkedInIcon /> </i>
           </a>
-          <a href='' className='me-4 text-reset'>
-            <i className='fab fa-linkedin'></i>
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <i className='fab fa-github'></i>
+          <a href='https://www.github.com' className='me-4 text-reset'>
+            <i className='fab fa-github'> <GitHubIcon /> </i>
           </a>
         </div>
       </section>
@@ -124,7 +127,7 @@ export default class footer extends Component {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+        <a className='text-reset fw-bold' href='https://github.com/garetdade/CSCE-3444'>
           TopPicks.com
         </a>
       </div>

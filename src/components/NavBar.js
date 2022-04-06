@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Nav, Navbar, NavbarBrand, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar, NavbarBrand, NavDropdown, Placeholder } from 'react-bootstrap';
 import { Route, Routes } from 'react-router-dom';
 import About from'./About';
 import Home from './Home';
@@ -8,6 +8,7 @@ import Explore from './Explore';
 import Favourites from './Favourites';
 import Faq from './Faq';
 import ContactUS from './ContactUS';
+import SearchBar from './SearchBar';
 
 import logo from './Screenshot.png';
 
@@ -17,12 +18,16 @@ export default class NavBar extends Component {
         <div className="navBar">
         <Navbar bg="dark" variant="dark" sticky="top" expand="lg" >
         <Navbar.Brand> 
-        <img src={logo} width="100px" height="50px" className="logo" />{' '}
-        TopPicks
+        <Nav.Link href="./Explore"><img src={logo} width="100px" height="50px" className="logo" />{' '}</Nav.Link>
+           
         </Navbar.Brand>
         
         <Navbar.Toggle />
-        <Navbar.Collapse>
+
+
+        <Navbar.Collapse> 
+        
+        <SearchBar placeholder={"Search for anything"} data={""} />
         
         <Nav className="options">
         <Nav.Link href="./home">Home</Nav.Link>

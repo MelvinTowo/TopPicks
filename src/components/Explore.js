@@ -11,7 +11,8 @@ export default class landing extends Component {
               <h2>Mercedes EQS</h2>
               <p> 
                 EQS is comfortable, quiet and packed full of features. It also has a 
-                roomy cargo area and a long range on a full charge. 
+                roomy cargo area and a long range on a full charge. This car also has an incredible 
+                acceleration rate going 0-60 in just 3 seconds!
               </p>
               <a href="">VISIT TOPPICK</a>
           </div>
