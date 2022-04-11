@@ -5,16 +5,20 @@
 }
 
 body{
-    
     height: 100%;
     width: 100%;
+    /* may need to adjust this for more toppicks 
+    Possibly 100vh vw width and height
+    */
+    
 }
 
 .Container{
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
   }
 
 .card{

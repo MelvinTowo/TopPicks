@@ -22,6 +22,7 @@ export default SearchBar;
 
 /*
 ** JS Script that iterates through data for tags **
+-> Used for the search bar display results <-
 <div className="dataResult">
     {data.map((value, key) =>{
                     return (

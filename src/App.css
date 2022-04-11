@@ -2,9 +2,26 @@ body{
   font-family: sans-serif;
 }
 
-.welcomeHome{
-  height: 100%;
-  width: 100%;
-  
+.mainpgContainer{
+  width: 100vw;
+  height: 100vh;
+}
 
+.addTPBtn{
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
+  padding: 10;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  font-size: 500;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bookButton{
+  border: none;
+  background-color: none;
+  
 }

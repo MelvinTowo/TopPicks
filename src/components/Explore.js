@@ -38,7 +38,7 @@ export default class landing extends Component {
           </div>
           <div className="card">
               <div className="card-image card-4"></div>
-              <h2>Robusto!. R Y J Reserve</h2>
+              <h2>Robusto! R Y J Reserve</h2>
               <p>
               The Romeo y Julieta Robusto is a fantastic entry point cigar with 
               a medium body and profile 
@@ -58,8 +58,11 @@ export default class landing extends Component {
           </div>
           <div className="card">
               <div className="card-image card-6"></div>
-              <h2>Title</h2>
-              <p>Text</p>
+              <h2>Violets!</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                Cum sociis natoque penatibus et magnis 
+                dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                 Nulla consequat massa quis enim.</p>
               <a href="">VISIT TOPPICK</a>
           </div>
           <div className="card">

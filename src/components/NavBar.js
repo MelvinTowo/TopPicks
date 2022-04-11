@@ -9,11 +9,15 @@ import Favourites from './Favourites';
 import Faq from './Faq';
 import ContactUS from './ContactUS';
 import SearchBar from './SearchBar';
-
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Contents from './Contents';
 import logo from './Screenshot.png';
 
 export default class NavBar extends Component {
   render() {
+    function signout(){
+      
+    }
     return (
         <div className="navBar">
         <Navbar bg="dark" variant="dark" sticky="top" expand="lg" >
@@ -40,6 +44,11 @@ export default class NavBar extends Component {
             <NavDropdown.Item href="ContactUS">Contact US</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="AddTopPick">Create a new TopPick</Nav.Link>
+        <NavDropdown title= {<AccountCircleIcon />}>
+        
+          
+          <NavDropdown.Item href="">Logout</NavDropdown.Item>
+        </NavDropdown>
       </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -51,6 +60,7 @@ export default class NavBar extends Component {
               <Route path='/About' element={<About />}></Route>
               <Route path='/ContactUS' element={<ContactUS />}></Route>
               <Route path='/FAQ' element={<Faq />}></Route>
+              <Route path='/Contents' element={<Contents />}></Route>
           </Routes>
       </div>
 
