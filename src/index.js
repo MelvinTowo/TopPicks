@@ -10,8 +10,7 @@ import Footer from './components/footer';
 
 ReactDOM.render(
   
-  <Router>
-  
+  <Router> 
   <App />
   <Footer />
   </Router>
