@@ -1,10 +1,10 @@
 
-// import './App.css';
+ import './App.css';
 import React, { Component } from 'react';
 import Signup from './logs/Signup';
 import Login from './logs/Login';
 import { AuthProvider } from './Contexts/AuthContext';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import About from './components/About';
 import Home from './components/Home';
@@ -12,9 +12,7 @@ import Favourites from './components/Favourites';
 import Faq from './components/Faq';
 import ContactUS from './components/ContactUS';
 import Contents from './components/Contents';
-import NavBar from './components/NavBar';
-import Footer from './components/footer';
-import Explore from './components/Explore';
+
 
 export default class App extends Component {
 
@@ -52,8 +50,8 @@ export default class App extends Component {
 }
 
 
-{/* <Route path='/Signup' element={<Signup />} />
-<Route path='/Login' element={<Login />} /> */}
+//{/* <Route path='/Signup' element={<Signup />} />
+//<Route path='/Login' element={<Login />} /> */}
 
 
 // function App() {
@@ -76,16 +74,16 @@ export default class App extends Component {
 
 
 
-{/* <div className="mainpgContainer">
-           <div className="dashTp">
-            {this.state.visible ? null : <Contents />}
-              <button className="bookButton" onClick={() => {
-              this.setState({visible: !this.state.visible})
-            }}>
+//{/* <div className="mainpgContainer">
+        //    <div className="dashTp">
+        //     {this.state.visible ? null : <Contents />}
+        //       <button className="bookButton" onClick={() => {
+        //       this.setState({visible: !this.state.visible})
+        //     }}>
 
-              {/* <{buttonText}> */}
-              /*<BookIcon fontSize="large"/>
-            </button>
-          </div>
-         </div> */
+        //       {/* <{buttonText}> */}
+        //       /*<BookIcon fontSize="large"/>
+        //     </button>
+        //   </div>
+        //  </div> */
         //}
