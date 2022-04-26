@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css';
 import NavBar from './NavBar';
-import { IconButton } from '@mui/material';
+
 
 
 export default function Home() {
@@ -9,14 +9,7 @@ export default function Home() {
     
     <div className="homePage">
       <NavBar />
-      <IconButton
-      size="large"
-      edge="start"
-      color="inherit"
-      aria-label="open drawer"
-      href='https://www.google.com/'
-    >
-      </IconButton>
+     This is the home page where the site would load all the users currently created TopPicks. Currently there are none for this user!
     </div>
   )
 }

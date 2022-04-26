@@ -24,9 +24,9 @@ body{
 .Ecard{
     background: white;
     width: 280px;
-    border-left: solid;
+    /* border-left: solid;
     border-right: solid;
-    border-bottom: solid;
+    border-bottom: solid; */
     
     margin: 10px;
     background-size: cover;
