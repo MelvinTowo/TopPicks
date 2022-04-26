@@ -53,23 +53,23 @@ body{
     transition: all 0.5s ease;
 }
 .im1{
-    background-image: url(test-image1.jpg);
+    background-image: url(./Assets/test-image1.jpg);
 }
 .im2{
-    background-image: url(test-image2.jpg);
+    background-image: url(./Assets/test-image2.jpg);
 }
 .im3{
-    background-image: url(test-image3.jpg);
+    background-image: url(./Assets/test-image3.jpg);
 }
 .im4{
-    background-image: url(test-image4.jpg);
+    background-image: url(./Assets/test-image4.jpg);
 }
 .im5{
-    background-image: url(test-image5.jpg);
+    background-image: url(./Assets/test-image5.jpg);
 }
 .im6{
-    background-image: url(test-image6.jpg);
+    background-image: url(./Assets/test-image6.jpg);
 }
 .im7{
-    background-image: url(test-image7.jpg);
+    background-image: url(./Assets/test-image7.jpg);
 }

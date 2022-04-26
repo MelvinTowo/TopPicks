@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import './Explore.css';
+import fire from '../config/fire';
 
 export default class landing extends Component {
   render() {
     return (
       <div>
         <section className="Container">
-          <div className="card">
-              <div className="card-image card-1"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-1"></div>
               <h2>Mercedes EQS</h2>
               <p> 
                 EQS is comfortable, quiet and packed full of features. It also has a 
@@ -16,8 +17,8 @@ export default class landing extends Component {
               </p>
               <a href="">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-2"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-2"></div>
               <h2>A bordeaux red</h2>
               <p>
               France’s most famous wine region and the reference point for Cabernet Sauvignon. But there’s actually more Merlot
@@ -26,8 +27,8 @@ export default class landing extends Component {
               </p>
               <a href="">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-3"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-3"></div>
               <h2>Pierres harbour, Australia</h2>
               <p>
                 This breath taking scene has to be one of the most beautiful pictures I have ever taken.
@@ -36,8 +37,8 @@ export default class landing extends Component {
               </p>
               <a href="">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-4"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-4"></div>
               <h2>Robusto! R Y J Reserve</h2>
               <p>
               The Romeo y Julieta Robusto is a fantastic entry point cigar with 
@@ -45,44 +46,44 @@ export default class landing extends Component {
               notes ranging from toasted nuts to spiced coffee to seasoned leather. 
               They are also a great price.
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <a href="#">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-5"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-5"></div>
               <h2>B 757 Spotted!</h2>
               <p>
                 On my morning run today, I happened to cross paths with this beauty. 
                 The 757 was always an incredible plane! A shame they continue to be retired :-(
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <a href="#">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-6"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-6"></div>
               <h2>Violets!</h2>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
                 Cum sociis natoque penatibus et magnis 
                 dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                  Nulla consequat massa quis enim.</p>
-              <a href="">VISIT TOPPICK</a>
+              <a href="#">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-7"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-7"></div>
               <h2>Hutchins Ribye</h2>
               <p>
                 One of the best steaks I have ever tasted! Evenly marinated down to the 
                 core and very juicy. Drizzled in only what could very well be their secret sauce
                 Hutchins did not dissapoint!
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <a href="#">VISIT TOPPICK</a>
           </div>
-          <div className="card">
-              <div className="card-image card-8"></div>
+          <div className="Ecard">
+              <div className="Ecard-image Ecard-8"></div>
               <h2>Gigabyte's RTX 3060ti</h2>
               <p>
-               Easily one of the best budget end graphics card in the market. 
+               Easily one of the best budget end graphics Ecard in the market. 
                incredible power draw and high frame rates make me recommend this to just about everyone!
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <a href="#">VISIT TOPPICK</a>
           </div>
         </section>  
         

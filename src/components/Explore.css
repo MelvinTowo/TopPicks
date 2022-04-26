@@ -21,16 +21,19 @@ body{
     
   }
 
-.card{
+.Ecard{
     background: white;
     width: 280px;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
     
     margin: 10px;
     background-size: cover;
     border-radius: 15px;
 }
 
-.card-image{
+.Ecard-image{
     background-color: aqua;
     height: 150px;
     margin-bottom: 15px;
@@ -38,48 +41,48 @@ body{
     border-radius: 15px 15px 0 0;
 }
 
-.card-1{
-    background-image: url(test-image1.jpg);
+.Ecard-1{
+    background-image: url(./Assets/test-image1.jpg);
 }
 
-.card-2{
-    background-image: url(test-image2.jpg);
+.Ecard-2{
+    background-image: url(./Assets/test-image2.jpg);
 }
 
-.card-3{
-    background-image: url(test-image3.jpg);
+.Ecard-3{
+    background-image: url(./Assets/test-image3.jpg);
 }
 
-.card-4{
-    background-image: url(test-image4.jpg);
+.Ecard-4{
+    background-image: url(./Assets/test-image4.jpg);
 }
 
-.card-5{
-    background-image: url(test-image5.jpg);
+.Ecard-5{
+    background-image: url(./Assets/test-image5.jpg);
 }
 
-.card-6{
-    background-image: url(test-image6.jpg);
+.Ecard-6{
+    background-image: url(./Assets/test-image6.jpg);
 }
 
-.card-7{
-    background-image: url(test-image7.jpg);
+.Ecard-7{
+    background-image: url(./Assets/test-image7.jpg);
 }
 
-.card-8{
-    background-image: url(test-image8.jpg);
+.Ecard-8{
+    background-image: url(./Assets/test-image8.jpg);
 }
 
-.card h2{
+.Ecard h2{
     padding: 10px;
 }
 
-.card p{
+.Ecard p{
     padding: 10px;
     overflow: hidden;
 }
 
-.card a{
+.Ecard a{
     background-color: black;
     color: white;
     padding: 15px 10px;
@@ -89,7 +92,7 @@ body{
     text-decoration: none;
 }
 
-.card:hover{
+.Ecard:hover{
     background-color: rgb(62,62,62);
     color: white;
     cursor: pointer;
