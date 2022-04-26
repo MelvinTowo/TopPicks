@@ -1,10 +1,10 @@
 import React from "react";
 import './SearchBar.css';
 import SearchIcon from '@mui/icons-material/Search';
-import { useState } from "react";
+//import { useState } from "react";
 
 function SearchBar({placeholder, data}){
-    const [filteredData, setFilteredData] = useState([]);
+    //const [filteredData, setFilteredData] = useState([]);
     return(
         <div className="search">
             <div className="searchInputs">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Explore.css';
-import fire from '../config/fire';
+
 
 export default class landing extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class landing extends Component {
                 roomy cargo area and a long range on a full charge. This car also has an incredible 
                 acceleration rate going 0-60 in just 3 seconds!
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <button>VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-2"></div>
@@ -25,7 +25,7 @@ export default class landing extends Component {
               (66%) in Bordeaux’s vineyards overall than Cabernet (22.5%). 
               This wine’s blend mirrors that, and its black- and red-currant flavors and aroma are equally classic.
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <button> VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-3"></div>
@@ -35,7 +35,7 @@ export default class landing extends Component {
                 The sky marinated in Crimson, the low yet subtle light from the sunset in the background,
                 I think this could very well be heaven :D 
               </p>
-              <a href="">VISIT TOPPICK</a>
+              <button> VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-4"></div>
@@ -46,7 +46,7 @@ export default class landing extends Component {
               notes ranging from toasted nuts to spiced coffee to seasoned leather. 
               They are also a great price.
               </p>
-              <a href="#">VISIT TOPPICK</a>
+              <button>VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-5"></div>
@@ -55,7 +55,7 @@ export default class landing extends Component {
                 On my morning run today, I happened to cross paths with this beauty. 
                 The 757 was always an incredible plane! A shame they continue to be retired :-(
               </p>
-              <a href="#">VISIT TOPPICK</a>
+              <button>VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-6"></div>
@@ -64,7 +64,7 @@ export default class landing extends Component {
                 Cum sociis natoque penatibus et magnis 
                 dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                  Nulla consequat massa quis enim.</p>
-              <a href="#">VISIT TOPPICK</a>
+              <button>VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-7"></div>
@@ -74,7 +74,7 @@ export default class landing extends Component {
                 core and very juicy. Drizzled in only what could very well be their secret sauce
                 Hutchins did not dissapoint!
               </p>
-              <a href="#">VISIT TOPPICK</a>
+              <button>VISIT TOPPICK</button>
           </div>
           <div className="Ecard">
               <div className="Ecard-image Ecard-8"></div>
@@ -83,7 +83,7 @@ export default class landing extends Component {
                Easily one of the best budget end graphics Ecard in the market. 
                incredible power draw and high frame rates make me recommend this to just about everyone!
               </p>
-              <a href="#">VISIT TOPPICK</a>
+              <button>VISIT TOPPICK</button>
           </div>
         </section>  
         

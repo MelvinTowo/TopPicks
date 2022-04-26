@@ -1,12 +1,7 @@
 
 import React, { Component } from 'react';
 import {MDBFooter} from 'mdb-react-ui-kit';
-import {
-    MDBContainer,
-    MDBCol,
-    MDBRow,
-    MDBIcon
-  } from 'mdb-react-ui-kit';
+
 import logo from './Assets/Screenshot.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -54,7 +49,7 @@ export default class footer extends Component {
               <p>
                 Find more ways to share TopPick tags with your friends or on other Socials!
               </p>
-              <img src={logo} width="200" height="100"></img>
+              <img src={logo} alt="" width="200" height="100"></img>
             </div>
 
             <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
