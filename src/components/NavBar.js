@@ -10,20 +10,20 @@ import { useAuth } from "../Contexts/AuthContext";
 
 export default function NavBar() {
  
-  const { logout } = useAuth();
-  const navigate = useNavigate();
-  const [setError] = useState("");
+  // const { logout } = useAuth();
+  // const navigate = useNavigate();
+  // const [setError] = useState("");
 
-  async function handleLogout(){
-    setError('')
+  // async function handleLogout(){
+  //   setError('')
 
-    try {
-      await logout()
-      navigate.push("/login")
-    } catch {
-      setError('Failed to logout')
-    }
-  }
+  //   try {
+  //     await logout()
+  //     navigate.push("/login")
+  //   } catch {
+  //     setError('Failed to logout')
+  //   }
+  // }
   return (
     <div className="navBar">
       <Navbar bg="dark" variant="dark" sticky="top" expand="lg" >
