@@ -30,8 +30,8 @@ export default function Login() {
         setLoading(false)
     }
   return (
-    <>
-    <Container className="d-flex align-items-center justify-content-center" 
+    <div className="page">
+    <Container className="container" 
     style={{minHeight: "100vh"}} >
         <div className="w-100" style={{maxWidth: "400px"}}>
             <Card className="formCard">
@@ -53,12 +53,12 @@ export default function Login() {
                     </Form>
                 </Card.Body>
             </Card>
-            <div className="w-100 text-center mt-2">
+            <div className="already">
                 Need an account? <Link to="/Signup">Signup</Link>
             </div>
         </div>
     </Container>
-    </>
+    </div>
   )
 }
 

@@ -15,4 +15,25 @@
     text-align: center;
 } */
 
+.page{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    background-image: url(../components/Assets/Thumbnail.png);
+    background-size: cover;
+}
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.already{
+    width: 100;
+    text-align: center;
+    margin-top: 2;
+    background-color: white;
+    border-radius: 0, 0, 15px, 15px;
+}
+
+/* w-100 text-center mt-2 */

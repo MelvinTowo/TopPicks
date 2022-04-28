@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import SearchBar from './SearchBar';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import logo from './Assets/Screenshot.png';
+import { useAuth } from "../Contexts/AuthContext";
 
 
 export default function NavBar() {
  
+  const { logout } = useAuth();
+  const navigate = useNavigate();
+  const [setError] = useState("");
+
+  async function handleLogout(){
+    setError('')
+
+    try {
+      await logout()
+      navigate.push("/login")
+    } catch {
+      setError('Failed to logout')
+    }
+  }
   return (
     <div className="navBar">
       <Navbar bg="dark" variant="dark" sticky="top" expand="lg" >
@@ -30,14 +45,13 @@ export default function NavBar() {
       <NavDropdown title="Settings">
           <NavDropdown.Item as={Link} to={"/About"}>About</NavDropdown.Item>
           <NavDropdown.Item href="/Favourites">Favourites</NavDropdown.Item>
-          <NavDropdown.Item href="./FAQ">FAQ</NavDropdown.Item>
           <NavDropdown.Item href="./ContactUS">Contact US</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="AddTopPick">Create a new TopPick</Nav.Link>
       <NavDropdown title= {<AccountCircleIcon />}>
-      
-        
-        <NavDropdown.Item >Logout</NavDropdown.Item>
+        <NavDropdown.Item onClick={handleLogout}>
+          Log out
+        </NavDropdown.Item>
       </NavDropdown>
     </Nav>
       </Navbar.Collapse>

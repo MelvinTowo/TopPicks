@@ -23,21 +23,18 @@ export default class App extends Component {
         <AuthProvider>
           
           <Routes>
-            <Route exact path='/Dashboard/*' element = {
-            <div> 
-            <Dashboard />
-            </div> 
-            } />
-            <Route path='/Signup' element={<Signup />} />
-            <Route path='/' element={<Login />} />
-            <Route path='/Login' element={<Login />} />
+            <Route exact path="/Dashboard/*" element = { <Dashboard /> } />
+            <Route path="/Signup" element={<Signup />} />
+            
+            <Route path="/Login" element={<Login />} />
+            <Route path="/" element={<Login />} />
             <Route path="/About" element={<About />} />
-            <Route path='/Home' element={<Home />}></Route>
-            <Route path='/Favourites' element={<Favourites />}></Route>
-            <Route path='/ContactUS' element={<ContactUS />}></Route>
-            <Route path='/Explore' element={<Dashboard />} />
-            <Route path='/FAQ' element={<Faq />}></Route>
-            <Route path='/Contents' element={<Contents />}></Route>
+            <Route path="/Home" element={<Home />}></Route>
+            <Route path="/Favourites" element={<Favourites />}></Route>
+            <Route path="/ContactUS" element={<ContactUS />}></Route>
+            <Route path="/Explore" element={<Dashboard />} />
+            <Route path="/FAQ" element={<Faq />}></Route>
+            <Route path="/Contents" element={<Contents />}></Route>
           </Routes>
         </AuthProvider>
       </div>

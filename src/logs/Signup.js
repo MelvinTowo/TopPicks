@@ -26,15 +26,15 @@ export default function Signup() {
             await signup(emailRef.current.value, passwordRef.current.value)
             navigate('/Dashboard')
         } catch {
-            setError('Failed to create an account: Ensure your password is more than 6 charecters long')
+            setError('Ensure your password is more than 6 charecters long')
         }
         setLoading(false)
 
         
     }
   return (
-    <>
-        <Container className="d-flex align-items-center justify-content-center" 
+    <div className="page">
+        <Container className="container" 
     style={{minHeight: "100vh"}}>
         <div className="w-100" style={{maxWidth: "400px"}}>
             <Card className="formCard">
@@ -54,18 +54,18 @@ export default function Signup() {
                             <Form.Label>Password Confirmation</Form.Label>
                             <Form.Control type="password" ref={passwordConfirmRef} required />
                         </Form.Group>
-                        <Button disabled={loading} className="submitBtn" type="submit">
+                        <Button disabled={loading} className="w-100" type="submit">
                             Sign up
                         </Button>
                     </Form>
                 </Card.Body>
             </Card>
-            <div className="w-100 text-center mt-2">
+            <div className="already">
             Already have an account? <Link to="/Login">Log in</Link> 
             </div>
         </div>
         </Container>
-    </>
+    </div>
   )
 }
 // h2 className = "text-center mb-4"
