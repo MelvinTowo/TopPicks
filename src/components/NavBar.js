@@ -49,7 +49,7 @@ export default function NavBar() {
       </NavDropdown>
       <Nav.Link href="AddTopPick">Create a new TopPick</Nav.Link>
       <NavDropdown title= {<AccountCircleIcon />}>
-        <NavDropdown.Item onClick={handleLogout}>
+        <NavDropdown.Item href="/Login">
           Log out
         </NavDropdown.Item>
       </NavDropdown>

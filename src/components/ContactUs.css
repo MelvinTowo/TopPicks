@@ -1,0 +1,19 @@
+.container{
+    height: 400px;
+}
+
+.contact{
+    padding: 10px;
+    justify-content: center;
+    background-image: url(./Assets/pexels-talena-reese-10471017.jpg);
+
+
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.contact p{
+    text-align: center;
+}

@@ -107,7 +107,7 @@ export default class footer extends Component {
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
-                info@example.com
+                Inquiries@toppicks.com
               </p>
               <p>
                 <i className='fas fa-phone me-3'></i> + 01 940 564 2000
