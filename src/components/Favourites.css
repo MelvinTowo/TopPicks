@@ -1,0 +1,11 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+    
+  }
+  .Header{
+      margin: 10px;
+  }
