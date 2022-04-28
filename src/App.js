@@ -6,6 +6,7 @@ import Login from './logs/Login';
 import { AuthProvider } from './Contexts/AuthContext';
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import Explore from './components/Dashboard';
 import About from './components/About';
 import Home from './components/Home';
 import Favourites from './components/Favourites';
@@ -32,7 +33,7 @@ export default class App extends Component {
             <Route path="/Home" element={<Home />}></Route>
             <Route path="/Favourites" element={<Favourites />}></Route>
             <Route path="/ContactUS" element={<ContactUS />}></Route>
-            <Route path="/Explore" element={<Dashboard />} />
+            <Route path="/Explore" element={<Explore/>} />
             <Route path="/FAQ" element={<Faq />}></Route>
             <Route path="/Contents" element={<Contents />}></Route>
           </Routes>
