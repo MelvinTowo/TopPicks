@@ -31,11 +31,11 @@ export default class App extends Component {
             <Route path="/" element={<Login />} />
             <Route path="/About" element={<About />} />
             <Route path="/Home" element={<Home />}></Route>
-            <Route path="/Favourites" element={<Favourites />}></Route>
-            <Route path="/ContactUS" element={<ContactUS />}></Route>
+            <Route path="/Favourites" element={<Favourites />} />
+            <Route path="/ContactUS" element={<ContactUS />} />
             <Route path="/Explore" element={<Explore/>} />
-            <Route path="/FAQ" element={<Faq />}></Route>
-            <Route path="/Contents" element={<Contents />}></Route>
+            <Route path="/FAQ" element={<Faq />} />
+            <Route path="/Contents" element={<Contents />} />
           </Routes>
         </AuthProvider>
       </div>
