@@ -1,17 +1,42 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './Home.css';
 import NavBar from './NavBar';
 
 
-
-export default function Home() {
-  return (
-    
-    <div className="homePage">
-      <NavBar />
-     This is the home page where the site would load all the users currently created TopPicks. Currently there are none for this user!
-    </div>
-  )
+export default class Home extends Component {
+  render() {
+    return (
+      <div className="homePage">
+        <NavBar />
+        <section className="Hsection">
+          <div className="tPicks">
+            <div className="tPicks-image"></div>
+            <h3>Cakes</h3>
+          </div>
+          <div className="tPicks">
+            <div className="tPicks-image"></div>
+            <h3>Cars</h3>
+          </div>
+          <div className="tPicks">
+            <div className="tPicks-image"></div>
+            <h3>Cheese</h3>
+          </div>
+          <div className="tPicks">
+            <div className="tPicks-image"></div>
+            <h3>Airplanes!</h3>
+          </div>
+          <div className="tPicks">
+            <div className="tPicks-image"></div>
+            <h3>Fruits</h3>
+          </div>
+          <div className="tPicks">
+            <div className="tPicks-image"></div>
+            <h3>MARVEL!</h3>
+          </div>
+        </section>
+      </div>
+    )
+  }
 }
 
 

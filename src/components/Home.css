@@ -1,15 +1,51 @@
 body{
     font-family: sans-serif;
     font-size: auto;
-    
+    height: 100%;
+    width: 100%;
 }
-
 .homePage{
     height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Thumbnail.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute; */
-    
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+
 }
+
+.Hsection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.tPicks{
+    background: transparent;
+    width: 200px;
+    height: 200px;
+    Margin: 10px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.tPicks-image{
+    width: 200px;
+    height: 200px;
+    background-image: url(./Assets/books.png);   
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.tPicks:hover{
+    background-color: rgb(196, 185, 185);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.tPicks h3{
+    text-align: center;
+}
+
