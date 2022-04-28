@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import logo from './Assets/Screenshot.png';
-import { useAuth } from "../Contexts/AuthContext";
+// import { useAuth } from "../Contexts/AuthContext";
 
 
 export default function NavBar() {
