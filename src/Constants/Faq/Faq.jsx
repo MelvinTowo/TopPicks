@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Faq.css';
-import NavBar from './NavBar';
+import NavBar from '../../components/NavBar';
 export default class Faq extends Component {
   render() {
     return (

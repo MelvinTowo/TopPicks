@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import NavBar from '../../components/NavBar';
 import './Home.css';
-import NavBar from './NavBar';
+
 
 
 export default class Home extends Component {
   render() {
     return (
+      
       <div className="homePage">
         <NavBar />
         <section className="Hsection">

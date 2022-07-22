@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import {MDBFooter} from 'mdb-react-ui-kit';
 
-import logo from './Assets/Screenshot.png';
+import logo from '../../components/Assets/Screenshot.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';

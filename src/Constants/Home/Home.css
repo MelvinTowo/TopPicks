@@ -33,7 +33,7 @@ body{
 .tPicks-image{
     width: 200px;
     height: 200px;
-    background-image: url(./Assets/folder.png);   
+    background-image: url(../../components/Assets/folder.png);   
     background-size: cover;
     border-radius: 15px 15px 15px 15px;
 }

@@ -23,7 +23,7 @@ export default function Login() {
             setError('')
             setLoading(true)
             await login(emailRef.current.value, passwordRef.current.value)
-            navigate('/Dashboard')
+            navigate('/Home')
         } catch {
             setError('Please double check your username or password')
         }
@@ -61,9 +61,3 @@ export default function Login() {
     </div>
   )
 }
-
-
-// H2 className "text-center mb-4"
-// This goes in button disabled={loading} 
-// Button className "w-100"
-// <Need ans account div className "w-100 text-center mt-2"

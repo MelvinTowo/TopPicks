@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-import NavBar from './NavBar'
 import './ContactUs.css'
 
 export default class ContactUS extends Component {
   render() {
     return (
-      <>
-      <NavBar />
-      
+      <> 
       <div className="container">
         
         <div className="contact">

@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+import NavBar from '../../components/NavBar';
 import './Explore.css';
 
 
-export default class landing extends Component {
-  render() {
-    return (
-      <div>
+const Explore = () => {
+  return (
+    <div>
+       <NavBar /> 
         <section className="Container">
           <div className="Ecard">
               <div className="Ecard-image Ecard-1"></div>
@@ -88,6 +89,7 @@ export default class landing extends Component {
         </section>  
         
       </div>
-    )
-  }
+  )
 }
+
+export default Explore

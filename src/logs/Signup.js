@@ -24,7 +24,7 @@ export default function Signup() {
             setError('')
             setLoading(true)
             await signup(emailRef.current.value, passwordRef.current.value)
-            navigate('/Dashboard')
+            navigate('/Home')
         } catch {
             setError('Ensure your password is more than 6 charecters long')
         }
